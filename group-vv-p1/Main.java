@@ -26,8 +26,7 @@ public class Main {
     private static final int RUNS_UP = 1, RUNS_DN = -1;
 
     public static void main(String[] pArgs) {
-        Main mainObject = new Main(); // Or you can just write: new Main().run();
-        mainObject.run(); // in place of these two lines.
+        new Main().run();
     }
 
     private void run() {
