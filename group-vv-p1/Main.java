@@ -24,6 +24,7 @@ import java.util.stream.IntStream;
 public class Main {
 
     private static final int RUNS_UP = 1, RUNS_DN = -1;
+    private static final String INFILE = "p1-in.txt", OUTFILE="p1-runs.txt";
 
     public static void main(String[] pArgs) {
         new Main().run();
@@ -34,7 +35,7 @@ public class Main {
 
         try
         {
-            list = readInputFile("p1-in.txt");
+            list = readInputFile(INFILE);
         }
         catch(FileNotFoundException fnfe)
         {
@@ -49,7 +50,7 @@ public class Main {
 
         try
         {
-            writeOutputFile("p1-runs.txt", listRunsCount);
+            writeOutputFile(OUTFILE, listRunsCount);
         }
         catch(FileNotFoundException fnfe)
         {
