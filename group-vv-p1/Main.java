@@ -105,7 +105,7 @@ public class Main {
         out.println("runs_total: " + pListRuns.stream().mapToInt(Integer::valueOf).sum());
         for(Integer k : IntStream.range(1,pListRuns.size()).toArray())
         {
-            out.println("runs_" + k + " " + pListRuns.get(k));
+            out.println("runs_" + k + ": " + pListRuns.get(k));
         }
 
         out.close();
