@@ -10,8 +10,8 @@
  *
  * GROUP INFORMATION
  * AUTHOR 1: Michael Foy, mcfoy, mcfoy@asu.edu
- * AUTHOR 2: your-name, your-asuriteid, your-email-addr
- * AUTHOR 3: your-name, your-asuriteid, your-email-addr
+ * AUTHOR 2: Rebekah Collett, rcollett2, rcollett2@asu.edu
+ * AUTHOR 3: Kevin Warch, kkevintw, kkevintw@asu.edu
  ********************************************************************************************************/
 
 import java.io.File;
