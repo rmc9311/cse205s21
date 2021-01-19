@@ -39,7 +39,7 @@ public class Main {
         }
         catch(FileNotFoundException fnfe)
         {
-            System.out.println("Error Message - SWR 4");
+            System.out.println("Oops, could not open 'p1-in.txt' for reading. The program is ending.");
             System.exit(-100);
         }
 
@@ -54,6 +54,7 @@ public class Main {
         }
         catch(FileNotFoundException fnfe)
         {
+            System.out.println("Oops, could not open 'p1-runs.txt' for writing. The program is ending.");
             System.exit(-200);
         }
     }
