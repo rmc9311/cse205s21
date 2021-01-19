@@ -1,3 +1,19 @@
+/*********************************************************************************************************
+ * CLASS: Main (Main.java)
+ *
+ * DESCRIPTION
+ * Main class for project 1 - Reads input from file and writes output to file as well
+ *
+ * COURSE AND PROJECT INFORMATION
+ * CSE205 Object Oriented Programming and Data Structures, Spring 2021
+ * Project Number: 1
+ *
+ * GROUP INFORMATION
+ * AUTHOR 1: Michael Foy, mcfoy, mcfoy@asu.edu
+ * AUTHOR 2: your-name, your-asuriteid, your-email-addr
+ * AUTHOR 3: your-name, your-asuriteid, your-email-addr
+ ********************************************************************************************************/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -5,7 +21,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-// Main.java
 public class Main {
 
     private static final int RUNS_UP = 1, RUNS_DN = -1;
@@ -31,7 +46,7 @@ public class Main {
         ArrayList<Integer> listRunsUpCount = findRuns(list, RUNS_UP);
         ArrayList<Integer> listRunsDnCount = findRuns(list, RUNS_DN);
 
-        ArrayList<Integer> listRunsCount = mergeLists(listRunsUpCount, listRunsDnCount);
+        final ArrayList<Integer> listRunsCount = mergeLists(listRunsUpCount, listRunsDnCount);
 
         try
         {
