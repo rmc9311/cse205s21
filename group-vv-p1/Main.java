@@ -10,7 +10,7 @@
  *
  * GROUP INFORMATION
  * AUTHOR 1: Michael Foy, mcfoy, mcfoy@asu.edu
- * AUTHOR 2: Rebekah Collett, rcollett2, rcollett2@asu.edu
+ * AUTHOR 2: Rebekah Collett, rcollet2, rcollet2@asu.edu
  * AUTHOR 3: Kevin Warch, kkevintw, kkevintw@asu.edu
  ********************************************************************************************************/
 
